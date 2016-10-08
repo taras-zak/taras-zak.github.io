@@ -1,3 +1,92 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.container h1 {
+  color: #205CF0;
+  font-family: Galada, sans-serif;
+  margin: 0 0 30px;
+  text-align: center;
+}
+input.search {
+  background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png') no-repeat 8px 6px;
+  background-position: initial;
+  background-size: contain;
+  border: 2px solid #cccccc;
+  box-sizing: border-box;
+  font-size: inherit;
+  margin: 10px 0;
+  padding: 10px 40px;
+  width: 500px;
+}
+.empty-result {
+  border: 2px solid #cccccc;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.member {
+  border-top-width: 0;
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  padding: 20px;
+}
+.member:first-of-type {
+  border-top-width: 1px;
+}
+.member .avatar-block {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 130px;
+}
+.member .avatar-block img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.member .content-block {
+  overflow: hidden;
+}
+.member .social-block {
+  font-size: 40px;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.member .social-block a {
+  color: #BEBEBE;
+  transition: color .3s;
+}
+.member .social-block a:hover {
+  color: #70bc5c;
+}
+.member .social-block li {
+  float: left;
+  margin: 0 15px 0 0;
+}
+.member .member-name {
+  display: block;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0 0 15px;
+}
+.member .member-location {
+  display: block;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 0 15px;
+}
+.member .member-location .fa {
+  color: #70bc5c;
+  font-size: 30px;
+  line-height: 1;
+  padding: 0 5px 0 0;
+}
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2196,95 +2285,4 @@
   margin: 0;
   overflow: visible;
   clip: auto;
-}
-body {
-    font-size: 16px;
-    font-family: sans-serif;
-}
-.container{
-    max-width: 500px;
-    margin: 0 auto;
-}
-.container h1{
-    text-align: center;
-    color: #205CF0;
-    margin: 0 0 30px;
-    font-family: Galada, sans-serif;
-}
-.member{
-    border: 1px solid #ccc;
-    border-top-width: 0;
-    padding: 20px;
-    overflow: hidden;
-}
-.member:first-of-type{
-    border-top-width: 1px;
-}
-.member .avatar-block{
-    float: left;
-    width: 130px;
-    margin: 0 20px 0 0;
-}
-.member .avatar-block img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-.member .content-block{
-    overflow: hidden;
-}
-.member .social-block{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size: 40px;
-    line-height: 1;
-}
-.member .social-block a{
-    color: #BEBEBE;
-    transition: color .3s;
-}
-.member .social-block a:hover{
-    color: #70BC5C;
-}
-.member .social-block li{
-    float: left;
-    margin: 0 15px 0 0;
-}
-.member .member-name{
-    display: block;
-    font-size: 24px;
-    line-height: 1.2;
-    margin: 0 0 15px;
-}
-.member .member-location{
-    display: block;
-    margin: 0 0 15px;
-    font-size: 18px;
-    line-height: 1.2;
-}
-.member .member-location .fa{
-    font-size: 30px;
-    line-height: 1;
-    color: #70BC5C;
-    padding: 0 5px 0 0;
-}
-
-input.search {
-    width: 500px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    padding: 10px 40px;
-    margin: 10px 0;
-    font-size: inherit;
-    background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png') no-repeat 8px 6px;
-    background-position: initial;
-    background-size: contain;
-}
-
-.empty-result {
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    padding: 10px 40px;
 }
